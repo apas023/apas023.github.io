@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+/* Sidebar Starts Here */
+.sidebar {
+    position: fixed;
+    background: grey;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+    top: 0px;
+
+}
+
+/* .sidebar h1 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background: grey;
+    padding: 20px;
+    font-weight: bold;
+} */
+
+#mypic {
+    display: flexbox;
+    margin-top: 100px
+}
+
+.nav {
+    padding-top: 30rem;
+}
+
+.sidebar ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 25px 0; */
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: white;
+    /* padding: 0 30px; */
+    transition: 0.4s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    color: black;
+    font-size: 150%;
+}
+
+#mypic {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: rgb(172, 140, 140);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Sidebar code ends here */
+
+
+
+/* Main content page code starts here */
+.main {
+    margin-left: 250px;
+    padding: 5px;
+}
+
+.main h2 {
+    margin-top: 20px;
+}
